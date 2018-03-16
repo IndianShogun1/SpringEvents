@@ -10,7 +10,7 @@ public class ApplicationMain {
         jdbcTemplate.update("insert into user (name,pin,amount,mobile) VALUES (?,?,?,?)",new Object[]{"ankit",1234,"30000","9717516550"});*/
 
        Myuser user=applicationContext.getBean(Myuser.class);
-       user.setUname("payal");
+       user.setUname("shreyansh");
        user.setUpin(1234);
        user.setWithdrawamt(5000);
        user.withrawMoney();
