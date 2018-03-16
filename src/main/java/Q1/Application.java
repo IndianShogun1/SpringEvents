@@ -13,7 +13,7 @@ public class Application {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("one_springconfig.xml");
         CustomPublisher customPublisher = applicationContext.getBean(CustomPublisher.class);
         List<Employee> list=new ArrayList<>();
-        list.add(new Employee(35,"payal","payal@",35000));
+        list.add(new Employee(35,"def","def@",35000));
         list.add(new Employee(40,"abc","abc@",25000));
         list.add(new Employee(39,"xyz","xyz@",38000));
         for(Employee employee:list){
