@@ -8,7 +8,7 @@ public class ApplicationMain {
         ApplicationContext applicationContext=new AnnotationConfigApplicationContext(ApplicationConfig.class);
 
        Myuser user=applicationContext.getBean(Myuser.class);
-       user.setUname("payal");
+       user.setUname("shreyansh");
        user.setUpin(1234);
        user.changeMobile();
 
