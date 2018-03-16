@@ -8,7 +8,7 @@ public class ApplicationMain {
         ApplicationContext applicationContext=new AnnotationConfigApplicationContext(ApplicationConfig.class);
 
        Myuser user=applicationContext.getBean(Myuser.class);
-       user.setUname("payal");
+       user.setUname("shreyansh");
        user.setUpin(12345);
        user.changeAtmPin();
         System.out.println("done");
