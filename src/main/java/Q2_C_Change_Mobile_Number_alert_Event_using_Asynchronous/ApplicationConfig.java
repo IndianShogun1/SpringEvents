@@ -24,7 +24,7 @@ public class ApplicationConfig {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/springEventDb");
         dataSource.setUsername("root");
-        dataSource.setPassword("payal");
+        dataSource.setPassword("test");
         return dataSource;
     }
 }
